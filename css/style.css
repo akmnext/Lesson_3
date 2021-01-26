@@ -1,0 +1,77 @@
+/* *Rezet styles */
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a, a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+
+/* *main styles */
+/* header */
+.header__title > span{
+	color: rgb(131, 0, 163);
+}
+.header__title__word-1 + span {
+	color: teal;
+}
+.header__title__word-1 + span + span {
+	color: rgb(22, 185, 1);
+}
+.header__title__word-1 + span + span + span{
+	color:  rgb(90, 8, 8);
+}
+.red-main ~ span {
+	color: red;
+}
+.header__link-autor {
+	color: rgb(158, 202, 0);
+}
+.header__link-recommend {
+	color: blue;
+}
+
+/* *menu */
+.menu > div {
+	color: rgb(245, 110, 0);
+}
+.menu__list span{
+	color: rgb(22, 187, 0);
+}
+.menu__link {
+	color: slateblue;
+}
+.article-autor span {
+	color: rgb(131, 0, 163);
+}
+
+/* *content */
+.main * {
+	color: rgb(59, 28, 28);
+}
+.subtitle, .subtitle-mini {
+	color: rgb(196, 15, 15);
+}
+.numbers-text {
+	color: rgb(23, 65, 104);
+}
+
+/* *footer */
+.footer > div {
+	color: rgb(0, 175, 29);
+}
